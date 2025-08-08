@@ -60,21 +60,17 @@
 ## 💻 How to Run the App
 
 ### 🔹 1. Clone the Repo
-bash
 git clone https://github.com/yourusername/securespend.git
 cd securespend
 
 ### 🔹 2. Install Requirements
-bash
 pip install pandas numpy scikit-learn streamlit joblib imbalanced-learn
 
 ### 🔹 3. Train the Model
-bash
 python credit_train.py
 (This will automatically preprocess data and generate the model)
 
 ### 🔹 4. Launch the Streamlit App
-bash
 streamlit run credit_test.py
 
 ### 🎯 Use Cases
