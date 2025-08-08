@@ -74,9 +74,9 @@ python credit_train.py
 streamlit run credit_test.py
 
 ### 🎯 Use Cases
--🛡️ Real-time fraud screening for online payments
--💳 Bank/Fintech transaction monitoring
--📊 Data science portfolio showcasing classification & imbalance handling
+- Real-time fraud screening for online payments
+- Bank/Fintech transaction monitoring
+- Data science portfolio showcasing classification & imbalance handling
 
 ### 👩‍💻 Author
 **Devadarshini P**  
