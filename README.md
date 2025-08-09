@@ -15,6 +15,7 @@
 ---
 
 ## 📁 Project Structure
+
 - ├── credit_train.py # Trains the fraud detection model
 - ├── credit_test.py # Streamlit app for real-time prediction
 - ├── credit_preprocess.py # Cleans data, applies scaling + SMOTE
@@ -38,19 +39,19 @@
 
 ## 🧪 How It Works
 
-1. **Preprocessing (`credit_preprocess.py`)**
+1. Preprocessing (`credit_preprocess.py`)
    - Loads dataset and drops missing values
    - Scales the transaction `Amount` field
    - Uses **SMOTE** to address class imbalance
    - Saves preprocessed dataset as `preprocessed_fraud.csv`
 
-2. **Model Training (`credit_train.py`)**
+2. Model Training (`credit_train.py`)
    - Splits dataset into training and testing sets
    - Trains a **Random Forest model** (or Logistic Regression)
    - Evaluates accuracy and classification metrics
    - Saves model to `fraud_model.pkl`
 
-3. **Fraud Prediction UI (`credit_test.py`)**
+3. Fraud Prediction UI (`credit_test.py`)
    - Accepts `Amount` and PCA features (V1 to V28) from user
    - Scales and formats inputs
    - Predicts whether a transaction is **genuine or fraudulent**
@@ -59,21 +60,22 @@
 
 ## 💻 How to Run the App
 
-### 🔹 1. Clone the Repo
+### 1. Clone the Repo
 git clone https://github.com/yourusername/securespend.git
 cd securespend
 
-### 🔹 2. Install Requirements
+### 2. Install Requirements
 pip install pandas numpy scikit-learn streamlit joblib imbalanced-learn
 
-### 🔹 3. Train the Model
+### 3. Train the Model
 python credit_train.py
 (This will automatically preprocess data and generate the model)
 
-### 🔹 4. Launch the Streamlit App
+### 4. Launch the Streamlit App
 streamlit run credit_test.py
 
-### 🎯 Use Cases
+## 🎯 Use Cases
+
 - Real-time fraud screening for online payments
 - Bank/Fintech transaction monitoring
 - Data science portfolio showcasing classification & imbalance handling
@@ -84,6 +86,7 @@ streamlit run credit_test.py
 [💻 GitHub](https://github.com/Devadarshini9000)
 
 “Catch the fraud before it catches you.” – SecureSpend
+
 <img width="1322" height="785" alt="image" src="https://github.com/user-attachments/assets/2f83e276-fcad-4a44-a16e-7b4044005956" />
 
 <img width="1267" height="763" alt="image" src="https://github.com/user-attachments/assets/cb0cd0c7-ae1c-429c-8d58-3a9bea42eb67" />
